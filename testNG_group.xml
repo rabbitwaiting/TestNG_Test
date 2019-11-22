@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="TestNG Testing">
+		<!-- <groups>
+			<run>
+				<include name="strong_ties" />
+			</run>
+		</groups> -->
+		
+		<!-- currently group is commented -->
+		<classes>
+			<class name="firsttestngpack.FirstTestNGFile" />
+		</classes>
+	</test>
+</suite>
